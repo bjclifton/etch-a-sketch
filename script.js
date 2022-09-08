@@ -39,7 +39,6 @@ let editGridContainer = function (num) {
 }
 
 btn.addEventListener('click', function () {
-    alert(colorPicker.value);
     removeGrid(num);
     getNum();
     editGridContainer(num);
